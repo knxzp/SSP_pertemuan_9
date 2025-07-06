@@ -129,3 +129,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+    "site_title": "SSP Kanza ",
+    "site_header": "UAS SSP",
+    "welcome_sign": "Selamat datang di Dashboard punya kanzaa!",
+    "copyright": "© 2025 Kanza",
+    # dan seterusnya...
+}

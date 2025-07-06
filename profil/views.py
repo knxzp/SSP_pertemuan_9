@@ -1,9 +1,13 @@
 from django.shortcuts import render
-from .models import About
-# Create your views here.
-def home(request):
-    about = About.objects.first()
-    return render(request,'index.html', {'about':about})
 
-def berita(request):
-    return render(request,'berita.html')
+def home(request):
+    return render(request, "index.html")
+
+def activities(request):
+    return render(request, "act.html")
+
+def contact(request):
+    return render(request, "contactme.html")
+
+def hobby(request):
+    return render(request, "hobby.html")            
